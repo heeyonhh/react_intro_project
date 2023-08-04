@@ -1,0 +1,44 @@
+#header{
+    @include position-fixed;
+    z-index: 10000;
+}
+
+.header_wrap{
+    @include flex-between;
+    padding: 1rem;
+    background: rgba(116, 99, 99, 0.1);
+    backdrop-filter: blur(15px);
+
+    .header_logo{
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .header_nav{
+        li{
+            display: inline-block;
+
+            a{
+                font-size: 1rem;
+                padding: 14px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: calc(100% - 28px);
+                    height: 1px;
+                    background-color: var(--black);
+                    position: absolute;
+                    left: 14px;
+                    bottom: 10px;
+                    transform: scaleX(0);
+                    transition: all 0.3s;
+                }
+
+                &:hover::before {
+                    transform: scaleX(1);
+                }
+            }
+        }
+    }
+}
