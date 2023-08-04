@@ -4,10 +4,8 @@
 }
 
 .header_wrap{
-    @include flex-between;
-    padding: 1rem;
-    background: rgba(116, 99, 99, 0.1);
-    backdrop-filter: blur(15px);
+    @include flex-j-between;
+    padding: 50px;
 
     .header_logo{
         font-size: 2rem;
