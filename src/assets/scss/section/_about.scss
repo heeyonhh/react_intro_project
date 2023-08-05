@@ -1,0 +1,49 @@
+#about{
+    width: 100%;
+    height: 100vh;
+
+    .about_wrap{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 70px;
+        padding: 100px;
+
+        .about_left{
+            width: 50%;
+            height: 100%;
+
+            img{
+                max-width: 100%;
+                height: auto;
+                border-radius: 30px;
+            }
+        }
+
+        .about_right{
+            width: 50%;
+            height: 100%;
+
+            .about{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+            .about_text{
+                font-size: 1.3rem;
+                line-height: 1.5;
+                margin-bottom: 50px;
+            }
+
+            .skill{
+                font-size: 2rem;
+                margin-bottom: 20px;
+            }
+
+            .about_skill{
+                font-size: 1.3rem;
+                line-height: 1.5;
+            }
+        }
+    }
+}
