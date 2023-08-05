@@ -1,5 +1,7 @@
 import React from "react";
 
+import { headerNav } from "../constants";
+
 const Header = () => {
     return (
     <header id="header">
@@ -10,10 +12,12 @@ const Header = () => {
             </div>
             <nav className="header_nav">
                 <ul>
-                    <li><a href="#intro">Intro</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    {headerNav.map((nav, i)=>(
+                        <li key={i}>
+                            <a href={nav.id}>{nav.title}</a>
+                        </li>
+                        ))
+                    }
                     <li>( Menu )</li>
                 </ul>
             </nav>

@@ -1,18 +1,18 @@
 export const headerNav = [
     {
-        title: "intro",
-        url: "#intro",
+        id: "#intro",
+        title: "Home"
     },
     {
-        title: "about",
-        url: "#about",
+        id: "#about",
+        title: "About"
     },
     {
-        title: "project",
-        url: "#project",
+        id: "#project",
+        title: "Project",
     },
     {
-        title: "contact",
-        url: "#contact",
+        id: "#contact",
+        title: "Contact",
     },
 ];
