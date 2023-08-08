@@ -4,11 +4,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeView from "./views/HomeView";
 import lenis from "./utils/lenis";
 import link from "./utils/link";
+import headergsap from "./utils/headergsap";
 
 const App = () => {
 
-  // 스무스 효과
   useEffect(() => {
+    // headergsap();
     lenis();
     link();
   }, []);

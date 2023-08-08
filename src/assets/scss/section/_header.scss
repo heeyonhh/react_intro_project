@@ -13,29 +13,22 @@
     }
 
     .header_nav{
+        right: 20px;
+        top: 20px;
+        z-index: 1000;
+        text-align: center;
+
         li{
             display: inline-block;
 
+            li:hover a{
+                text-decoration: dashed 1px solid black;
+            }
+
             a{
-                font-size: 1rem;
-                padding: 14px;
-                position: relative;
-
-                &::before {
-                    content: "";
-                    width: calc(100% - 28px);
-                    height: 1px;
-                    background-color: var(--black);
-                    position: absolute;
-                    left: 14px;
-                    bottom: 10px;
-                    transform: scaleX(0);
-                    transition: all 0.3s;
-                }
-
-                &:hover::before {
-                    transform: scaleX(1);
-                }
+                padding-left: 70px;
+                transition: all 0.3s;
+                font-size: 1.5rem;
             }
         }
     }
