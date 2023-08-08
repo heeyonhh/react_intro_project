@@ -1,34 +1,79 @@
-#header{
-    @include position-fixed;
+#header {
+    width: 100%;
+    height: 100vh;
     z-index: 10000;
-}
+    background-image: url(../../img/main_bg.jpg);
+    background-size: cover;
+    background-position: center;
 
-.header_wrap{
-    @include flex-j-between;
-    padding: 50px;
+    .header_top {
+        width: 100%;
+        height: 20vh;
+        @include flex-j-between;
+        padding: 50px;
 
-    .header_logo{
-        font-size: 2rem;
-        line-height: 1;
+        .header_logo {
+            font-size: 2rem;
+            line-height: 1;
+            color: #fff;
+        }
+
+        .header_nav {
+            position: fixed;
+            right: 50px;
+            top: 50px;
+            z-index: 1000;
+            text-align: center;
+            transition: all 0.3s;
+
+            li {
+                display: inline-block;
+
+                a {
+                    font-size: 1rem;
+                    padding-left: 70px;
+                    transition: all 0.5s;
+                    font-size: 1.5rem;
+                }
+
+                a.scrolled {
+                    font-size: 0.95rem;
+                    padding-left: 10px;
+                }
+            }
+        }
+
     }
 
-    .header_nav{
-        right: 20px;
-        top: 20px;
-        z-index: 1000;
-        text-align: center;
+    .header_bottom{
+        width: 100%;
+        height: 80vh;
+        padding: 50px;
+        @include flex-j-between;
+        align-items: flex-end;
+    
+        .header_name{
+            width: 100%;
+            font-weight: bold;
+            font-size: 10rem;
+            line-height: 1;
+            position: fixed;
+            bottom: 50px;
+            left: 50px;
+            transition: all 0.5s;
+        }
 
-        li{
-            display: inline-block;
+        .header_name.scrolled{
+            font-size: 3rem;
+            bottom: 725px;
+        }
 
-            li:hover a{
-                text-decoration: dashed 1px solid black;
-            }
+        .header_img{
+            width: 800px;
 
-            a{
-                padding-left: 70px;
-                transition: all 0.3s;
-                font-size: 1.5rem;
+            img{
+                border-radius: 20px;
+                opacity: 0.3;
             }
         }
     }

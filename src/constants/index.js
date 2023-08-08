@@ -1,6 +1,6 @@
 export const headerNav = [
     {
-        id: "#intro",
+        id: "#header",
         title: "Home"
     },
     {
