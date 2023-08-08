@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { headerNav } from "../constants";
 
-import main_img from "../assets/img/main_img.jpg"
 import { useEffect, useState } from "react";
 
 const Header = () => {
@@ -44,9 +43,6 @@ const Header = () => {
             </div>
             <div className="header_bottom">
                 <span className={`header_name ${isScrolled ? "scrolled" : ""}`}>Heeyon Kim</span>
-                <div className="header_img">
-                    <img src={main_img} alt="main_img" />
-                </div>
             </div>
         </header>
     );

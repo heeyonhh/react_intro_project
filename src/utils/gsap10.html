@@ -404,6 +404,32 @@
                 targets: "#parallax__nav"
             }
         });
+
+        import React, {useEffect, useRef} from "react";
+
+import { gsap } from "gsap";
+
+        let aboutref = useRef(null);
+  let tl = gsap.timeline({ delay: 1 });
+
+  useEffect(() => {
+    tl.from(aboutref.current, {
+      opacity: 0,
+      x: 0, //y 300에서부터 시작
+      duration: 1.2, //애니메이션 적용시간
+      // ease: "bounce.out", //튕기면서 마무리
+    });
+    tl.to(aboutref.current, {
+      opacity: 1,
+      x: 200,
+      duration: 1.4,
+      // ease: "bounce.out",
+      // rotation: 360, // 회전
+    });
+    // tl.to(aboutref.current, {
+    //   scale: 1, //다시 scale이 1로
+    // });
+  }, []);
     </script>
 </body>
 

@@ -1,16 +1,21 @@
+body{
+    background-color: #121213;;
+}
+
+*{
+    color: #fff;
+}
+
 #header {
     width: 100%;
     height: 100vh;
     z-index: 10000;
-    background-image: url(../../img/main_bg.jpg);
-    background-size: cover;
-    background-position: center;
 
     .header_top {
         width: 100%;
         height: 20vh;
         @include flex-j-between;
-        padding: 50px;
+        padding: 30px;
 
         .header_logo {
             font-size: 2rem;
@@ -34,6 +39,7 @@
                     padding-left: 70px;
                     transition: all 0.5s;
                     font-size: 1.5rem;
+                    font-weight: bold;
                 }
 
                 a.scrolled {
@@ -48,7 +54,7 @@
     .header_bottom{
         width: 100%;
         height: 80vh;
-        padding: 50px;
+        padding: 30px;
         @include flex-j-between;
         align-items: flex-end;
     
@@ -65,16 +71,7 @@
 
         .header_name.scrolled{
             font-size: 3rem;
-            bottom: 725px;
-        }
-
-        .header_img{
-            width: 800px;
-
-            img{
-                border-radius: 20px;
-                opacity: 0.3;
-            }
+            bottom: 710px;
         }
     }
 }

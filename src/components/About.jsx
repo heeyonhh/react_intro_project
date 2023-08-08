@@ -1,8 +1,8 @@
-import React from "react";
 
 import about_img from "../assets/img/aboutimg.jpg"
 
 const About = () => {
+
   return (
     <section id="about">
       <div className="about_wrap">
