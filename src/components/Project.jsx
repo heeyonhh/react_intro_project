@@ -7,8 +7,8 @@ const Project = () => {
     <section id="project">
       <div className="project_wrap">
 
-        {projectData.map((project)=>(
-          <div className="project">
+        {projectData.map((project, i)=>(
+          <div key={i} className="project">
             <div className="project_img_wrap">
               <div className="project_img">{project.img}</div>
             </div>
