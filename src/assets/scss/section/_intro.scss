@@ -12,46 +12,86 @@
     width: 100%;
     height: 100vh;
     padding: 20px;
-    @include flex-j-between;
+    display: flex;
+    justify-content: space-between;
     background-color: #1c1c1c;
 
     .intro_top {
-        @include flex-center;
         height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .intro_name {
             font-weight: bold;
             font-size: 5em;
             line-height: 1;
-            transition: all 2s;
+            transition: all 1s ease;
         }
     }
 
+
     .intro_wrap {
-        display: block;
         height: 100%;
-        @include flex-center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         .intro_text_item {
             font-weight: bold;
             font-size: 4rem;
             line-height: 1;
-            transition: all 2s;
+            transition: all 1s ease;
         }
     }
 
     .nav {
         height: 100%;
-        @include flex-center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        a {
-            font-size: 1rem;
-            transition: all 0.5s;
+        .menu {
+            transition: all 1s ease;
             font-size: 4em;
             font-weight: bold;
-            transition: all 0.3s;
         }
 
     }
 
+}
+
+#intro.animate{
+    justify-content: unset;
+}
+
+.intro_top.animate, #intro .nav.animate{
+    display: unset;
+    height: unset;
+}
+
+#intro .intro_top .intro_name.animate{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    font-size: 2em;
+}
+
+.intro_text_item.animate{
+    display: none;
+}
+
+#intro .nav.animate{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu_box.animate{
+    display: inline-block;
+}
+
+#intro .nav .menu.animate{
+    font-size: 1em;
+    padding-left: 10px;
 }
