@@ -1,6 +1,6 @@
 import React from "react";
 
-import {projectData} from "../constants/index"
+import {projectData} from "./data"
 
 const Project = () => {
   return (
