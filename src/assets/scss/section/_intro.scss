@@ -14,7 +14,6 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: #1c1c1c;
 
     .intro_top {
         height: 100%;
@@ -75,6 +74,7 @@
     top: 30px;
     left: 30px;
     font-size: 2em;
+    color: #1c1c1c;
 }
 
 .intro_text_item.animate{
@@ -94,4 +94,5 @@
 #intro .nav .menu.animate{
     font-size: 1em;
     padding-left: 10px;
+    color: #1c1c1c;
 }

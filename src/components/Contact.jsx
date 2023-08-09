@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <footer id="contact" className="item">
+    <footer id="contact" className="item" data-bgcolor="#f6f5f2">
       <div className="contact_left">
         <p className="contact_logo">Heeyon Kim</p>
       </div>
