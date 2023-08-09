@@ -4,7 +4,7 @@ import about_img from "../assets/img/aboutimg.jpg"
 const About = () => {
 
   return (
-    <section id="about">
+    <section id="about" className="item" data-bgcolor="#f6f5f2">
       <div className="about_wrap">
         <div className="about_left">
           <img src={about_img} alt="about_img" />

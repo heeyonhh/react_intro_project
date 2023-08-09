@@ -2,8 +2,16 @@ body{
     background-color: #121213;;
 }
 
-*{
-    color: #fff;
+#intro{
+    width: 100%;
+    height: 100vh;
+
+    .intro_text {
+        font-weight: bold;
+        font-size: 3rem;
+        line-height: 1;
+        color: #fff;
+    }
 }
 
 #header {
@@ -16,12 +24,6 @@ body{
         height: 20vh;
         @include flex-j-between;
         padding: 30px;
-
-        .header_logo {
-            font-size: 2rem;
-            line-height: 1;
-            color: #fff;
-        }
 
         .header_nav {
             position: fixed;
@@ -40,11 +42,13 @@ body{
                     transition: all 0.5s;
                     font-size: 1.5rem;
                     font-weight: bold;
+                    color: #fff;
                 }
 
                 a.scrolled {
                     font-size: 0.95rem;
                     padding-left: 10px;
+                    color: #1c1c1c;;
                 }
             }
         }
@@ -67,11 +71,13 @@ body{
             bottom: 50px;
             left: 50px;
             transition: all 0.5s;
+            color: #fff;
         }
 
         .header_name.scrolled{
             font-size: 3rem;
             bottom: 710px;
+            color: #1c1c1c;;
         }
     }
 }

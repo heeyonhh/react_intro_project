@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import HomeView from "./views/HomeView";
+import View from "./views/View";
 import lenis from "./utils/lenis";
 import link from "./utils/link";
 
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomeView />} />
+        <Route path="/" element={<View />} />
       </Routes>
     </BrowserRouter>
   );

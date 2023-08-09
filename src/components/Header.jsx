@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { headerNav } from "../constants";
-
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
+import { headerNav } from "../constants";
 
 const Header = () => {
 
@@ -11,10 +11,11 @@ const Header = () => {
     const handleScroll = () => {
         const scrollPosition = window.scrollY;
         const headerHeight = document.getElementById("header").clientHeight;
-
-        setIsScrolled(scrollPosition >= headerHeight);
+        const triggerPosition = headerHeight * 0.5; //  * 0.5헤더 높이의 50%
+    
+        setIsScrolled(scrollPosition >= triggerPosition);
     };
-
+    
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
         return () => {
@@ -24,11 +25,8 @@ const Header = () => {
 
     
     return (
-        <header id="header">
+        <header id="header" className="item" data-bgcolor="#1c1c1c">
             <div className="header_top">
-                <div className="header_logo">
-                    <a href="/">Constantly evolving, <br /> New front-end developers.</a>
-                </div>
                 <nav className="header_nav">
                     <ul>
                         {headerNav.map((nav, i) => (
