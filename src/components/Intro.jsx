@@ -14,7 +14,7 @@ const Intro = () => {
 
         // 인트로 배경 애니메이션
         gsap.to(".intro_bg", {
-            duration: 2,
+            duration: 1,
             height: 0,
             delay: 2, //2초 뒤에 시작
             ease: "power2.inOut",
@@ -56,6 +56,9 @@ const Intro = () => {
                             ))}
                         </ul>
                     </nav>
+                </div>
+                <div className="intro_center">
+                    <div className="intro_center_img" style={{ opacity: elementsOpacity }}></div>
                 </div>
                 <div className='intro_wrap'>
                     <p className={`intro_logo ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
