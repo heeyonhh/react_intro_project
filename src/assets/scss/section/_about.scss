@@ -31,10 +31,13 @@
             }
 
             .about_text{
-                font-size: 1.3rem;
-                line-height: 1.5;
-                margin-bottom: 50px;
-                color: #1c1c1c;
+                margin-bottom: 100px;
+                
+                p{
+                    font-size: 1.3rem;
+                    line-height: 1.5;
+                    color: #1c1c1c;
+                }
             }
 
             .skill{
@@ -44,9 +47,11 @@
             }
 
             .about_skill{
+                p{
                 font-size: 1.3rem;
                 line-height: 1.5;
                 color: #1c1c1c;
+                }
             }
         }
     }
