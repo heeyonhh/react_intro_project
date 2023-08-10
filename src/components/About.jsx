@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import about_img from "../img/aboutimg.jpg";
 import { aboutData } from "./data";
+import aboutimg from "../img/aboutimg.jpg"
 
 const About = () => {
 
@@ -34,10 +34,10 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="item" data-bgcolor="#f6f5f2">
+    <section id="about" className="item" data-bgcolor="#e5e3db">
       <div className="about_wrap">
         <div className="about_left">
-          <img src={about_img} alt="about_img" className="aniitem" />
+          <img src={aboutimg} alt="aboutimg" />
         </div>
         <div className="about_right">
           {aboutData.map((about, i) => (

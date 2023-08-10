@@ -1,15 +1,52 @@
-#contact{
+#contact {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    padding: 30px;
     @include flex-center;
+    background-color: #e5e3db;
 
-    .contact_left{
-        width: 50%;
+    .contact_left {
+        width: 33%;
         height: 100%;
+        @include flex-center;
+
+        img {
+            width: 100px;
+        }
     }
 
-    .contact_{
-        width: 50%;
+    .contact_center {
+        width: 33%;
         height: 100%;
+        @include flex-center;
+        flex-direction: column;
+        gap: 5px;
+
+        p {
+            font-size: 3rem;
+        }
+
+        .email {
+            font-size: 1.5rem;
+        }
+    }
+
+    .contact_right {
+        width: 33%;
+        height: 100%;
+        @include flex-center;
+
+        .backtop_box {
+            cursor: pointer;
+            width: 80px;
+            height: 120px;
+            border: solid 2px #212125;
+            border-radius: 35px;
+            @include flex-center;
+
+            img {
+                padding: 20px;
+            }
+        }
     }
 }

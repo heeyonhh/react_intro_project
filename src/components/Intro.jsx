@@ -39,7 +39,7 @@ const Intro = () => {
     return (
         <>
             <div className="intro_bg"></div>
-            <div id="intro" data-bgcolor="#1c1c1c" className='item'>
+            <div id="intro" data-bgcolor="#212125" className='item'>
                 <div className={`intro_top ${animateState ? "animate" : ""}`}>
                     <span className={`intro_text ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
                         Constantly<br />evolving,<br />
