@@ -17,6 +17,7 @@
                 max-width: 100%;
                 height: auto;
                 border-radius: 30px;
+                transition: all 1s ease-in-out;
             }
         }
 
@@ -24,33 +25,21 @@
             width: 50%;
             height: 100%;
 
-            .about{
+            .about_title{
                 font-size: 2rem;
                 margin-bottom: 20px;
                 color: #1c1c1c;
+                transition: all 0.5s ease-in-out;
             }
 
             .about_text{
                 margin-bottom: 100px;
-                
+
                 p{
                     font-size: 1.3rem;
                     line-height: 1.5;
                     color: #1c1c1c;
-                }
-            }
-
-            .skill{
-                font-size: 2rem;
-                margin-bottom: 20px;
-                color: #1c1c1c;
-            }
-
-            .about_skill{
-                p{
-                font-size: 1.3rem;
-                line-height: 1.5;
-                color: #1c1c1c;
+                    transition: all 0.5 ease-in-out;
                 }
             }
         }
