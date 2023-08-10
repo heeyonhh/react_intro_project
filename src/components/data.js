@@ -46,14 +46,14 @@ export const projectData = [
         type: "Project 1",
         info: "설명",
         UseStack: "react.js/redux/firebase/mui/bootstrap/figma",
-        img: ""
+        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
     {
         title: "COS 홈페이지",
         type: "Project 2",
         info: "설명",
         UseStack: "html5/css3/jquery",
-        img: ""
+        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
     {
         title: "APP",
@@ -61,13 +61,13 @@ export const projectData = [
         info: "설명",
         view: "netlify",
         UseStack: "react native/expo",
-        img: ""
+        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
     {
         title: "HEEPOLIO",
         type: "Project 4",
         info: "설명",
         UseStack: "react.js/sass",
-        img: ""
+        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
 ];

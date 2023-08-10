@@ -6,7 +6,6 @@ const Project = () => {
   return (
     <section id="project" className="item" data-bgcolor="#1c1c1c">
       <div className="project_wrap">
-
         {projectData.map((project, i)=>(
           <div key={i} className="project">
             <div className="project_img_wrap">

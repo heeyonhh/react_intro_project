@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import View from "./views/View";
+import View from "./View";
 import lenis from "./utils/lenis";
 import link from "./utils/link";
 

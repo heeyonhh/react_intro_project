@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import about_img from "../assets/img/aboutimg.jpg";
+import about_img from "../img/aboutimg.jpg";
 import { aboutData } from "./data";
 
 const About = () => {
