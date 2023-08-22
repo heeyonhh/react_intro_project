@@ -1,11 +1,8 @@
 # HEEPOLIO
-
 # 프로젝트 1. 플라토 커피 주문 앱 for React
-
 # NETLIFY URL url
 
-
-## 설명
+## 소개
 
 - 앱 루트 구현 가까운 매장 추적 / 선택 > 상품 선택 > 장바구니 추가 > 주문
 
@@ -19,7 +16,6 @@
 
 - git hub - netlify를 통한 사이트 배포
 
-  
 ## 사용 스택
 
 Frameworks & Library
@@ -36,11 +32,9 @@ Figma
 
 
 # 프로젝트 2. 'cos' 반응형 웹사이트
-
 # NETLIFY URL url
 
-
-## 설명
+## 소개
 
 - HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계 & 웹 표준 및 웹 접근성 준수하여 작업
   
@@ -52,7 +46,6 @@ Figma
   
 - netlify를 통한 사이트 배포
 
-  
 ## 사용 스택
 
 Platforms & Languages
@@ -65,13 +58,10 @@ jQuery
 Git / Visual Studio Code
 
 
-
 # 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio for React
-
 # NETLIFY URL url
 
-
-## 설명
+## 소개
 
 - react를 사용한 번들링 & 관리
 
@@ -83,7 +73,6 @@ Git / Visual Studio Code
   
 - netlify를 통한 사이트 배포
 
-  
 # 사용 스택
 
 Frameworks & Library
