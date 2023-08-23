@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import Intro from "./components/Intro";
+import Ani from "./components/Ani";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
@@ -38,6 +39,7 @@ const View = () => {
   return (
     <>
       <Intro itembgcRef={itembgcRef}/>
+      <Ani itembgcRef={itembgcRef}/>
       <About itembgcRef={itembgcRef}/>
       <Project itembgcRef={itembgcRef}/>
       <Contact itembgcRef={itembgcRef}/>

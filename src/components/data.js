@@ -1,3 +1,7 @@
+import projectimg1 from "../img/project1.png";
+import projectimg2 from "../img/project2.png";
+import projectimg3 from "../img/project3.png";
+
 export const Nav = [
     {
         id: "#intro",
@@ -47,24 +51,31 @@ export const aboutData = [
 
 export const projectData = [
     {
-        title: "플라토 커피 주문 앱",
+        img: <img src={projectimg1} />,
+        url:"https://coskorea.netlify.app",
+        logo: "COS",
+        title: "COS 홈페이지",
         type: "Project 1",
         info: "설명",
-        UseStack: "react.js/redux/recoil/kakaoapi/mui/bootstrap/figma",
-        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
+        // 따로 따로 쓰기
+        UseStack: "html5/css3/javascripy/jquery",
     },
     {
-        title: "COS 홈페이지",
+        img: <img src={projectimg2} />,
+        url: "https://platocoffee.netlify.app/",
+        logo: <p>plato<br/>coffee</p>,
+        title: "플라토 커피 주문 앱",
         type: "Project 2",
         info: "설명",
-        UseStack: "html5/css3/javascripy/jquery",
-        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
+        UseStack: "react.js/redux/recoil/kakaoapi/mui/bootstrap/figma",
     },
     {
+        img: <img src={projectimg3} />,
+        url:null,
+        logo: "'HEEPOLIO'",
         title: "HEEPOLIO",
         type: "Project 3",
         info: "설명",
         UseStack: "react.js/sass/gsap/figma",
-        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
 ];

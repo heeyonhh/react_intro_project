@@ -1,0 +1,30 @@
+#ani {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    .ani_wrap {
+        width: 100%;
+        height: 100%;
+        white-space: nowrap;
+        line-height: 1.2;
+
+        .ani {
+            @include flex-center;
+            animation-play-state: running;
+            animation: ani 20s infinite linear;
+            font-size: 50rem;
+
+            @keyframes ani {
+                0% {
+                    transform: translateZ(0);
+                }
+
+                100% {
+                    transform: translate3d(-100%, 0, 0);
+                }
+            }
+        }
+    }
+}

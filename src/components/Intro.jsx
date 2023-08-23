@@ -40,21 +40,17 @@ const Intro = () => {
         <>
             <div className="intro_bg"></div>
             <div id="intro" data-bgcolor="#212125" className='item'>
-                <div className={`intro_top ${animateState ? "animate" : ""}`}>
-                    <span className={`intro_text ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
+                <div className="intro_top">
+                    <span className="intro_text" style={{ opacity: elementsOpacity }}>
                         Constantly<br />evolving,<br />
                         New<br />front-end<br />developers.
                     </span>
                     <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
-                        <ul>
-                            {Nav.map((nav, i) => (
-                                <li key={i}>
-                                    <Link className={`menu ${animateState ? "animate" : ""}`} to={nav.id}>
-                                        {nav.title}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                        {Nav.map((nav, i) => (
+                            <Link key={i} className={`menu ${animateState ? "animate" : ""}`} to={nav.id}>
+                                {nav.title}
+                            </Link>
+                        ))}
                     </nav>
                 </div>
                 <div className="intro_center">
@@ -65,7 +61,7 @@ const Intro = () => {
                         Heeyon Kim
                     </p>
                 </div>
-            </div>
+            </div >
         </>
     );
 };

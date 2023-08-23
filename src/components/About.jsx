@@ -34,7 +34,7 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" className="item" data-bgcolor="#e5e3db">
+    <section id="about" className="item" data-bgcolor="#EAEAEA">
       <div className="about_wrap">
         <div className="about_left">
           <img src={aboutimg} alt="aboutimg" />
