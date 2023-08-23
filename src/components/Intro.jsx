@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Nav } from "./data";
 
 const Intro = () => {
-    const [elementsOpacity, setElementsOpacity] = useState(0);
+    const [Opacity, setOpacity] = useState(0);
     const [animateState, setAnimateState] = useState(false);
 
     useEffect(() => {
@@ -20,7 +20,12 @@ const Intro = () => {
             ease: "power2.inOut",
             onComplete: () => {
                 //인트로 배경 애니메이션 끝난 후 텍스트 Opacity
-                setElementsOpacity(1);
+                setOpacity(1);
+                //line
+                const introLine = document.querySelector(".intro_line");
+                if (introLine) {
+                    introLine.classList.add("ready");
+                }
             },
         });
 
@@ -41,11 +46,11 @@ const Intro = () => {
             <div className="intro_bg"></div>
             <div id="intro" data-bgcolor="#212125" className='item'>
                 <div className="intro_top">
-                    <span className="intro_text" style={{ opacity: elementsOpacity }}>
+                    <span className="intro_text" style={{ opacity: Opacity }}>
                         Constantly<br />evolving,<br />
-                        New<br />front-end<br />developers.
+                        New<br />front-end<br />developer.
                     </span>
-                    <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
+                    <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         {Nav.map((nav, i) => (
                             <Link key={i} className={`menu ${animateState ? "animate" : ""}`} to={nav.id}>
                                 {nav.title}
@@ -54,10 +59,11 @@ const Intro = () => {
                     </nav>
                 </div>
                 <div className="intro_center">
-                    <div className="intro_center_img" style={{ opacity: elementsOpacity }}></div>
+                    <div className="intro_center_img" style={{ opacity: Opacity }}></div>
+                    <p className="intro_line"></p>
                 </div>
                 <div className='intro_wrap'>
-                    <p className={`intro_logo ${animateState ? "animate" : ""}`} style={{ opacity: elementsOpacity }}>
+                    <p className={`intro_logo ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         Heeyon Kim
                     </p>
                 </div>

@@ -45,10 +45,10 @@ const Project = () => {
                 <p className="project_logo">{project.logo}</p>
               </Link>
             </div>
-            <div className="project_info aniitem">
-              <span>{project.title}</span>
-              <span>{project.type}</span>
-              <span>{project.info}</span>
+            <div className="project_info_wrap aniitem">
+              <span className="project_title">{project.title}</span>
+              <span className="project_type">{project.type}</span>
+              <span className="project_info">{project.info}</span>
             </div>
           </div>
         ))}

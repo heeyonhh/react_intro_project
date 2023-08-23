@@ -29,15 +29,27 @@
                 }
             }
 
-            .project_info {
+            .project_info_wrap {
                 width: 50%;
                 height: 100%;
                 padding: 50px;
 
-                span {
+                span{
                     display: block;
-                    width: 100%;
-                    font-size: 1rem;
+                }
+
+                .project_title{
+                    font-size: 2rem;
+                    margin-bottom: 20px;
+                    color: #1c1c1c;
+                    transition: all 0.5s ease-in-out;
+                }
+
+                .project_type, .project_info{
+                    font-size: 1.3rem;
+                    line-height: 1.5;
+                    color: #1c1c1c;
+                    transition: all 0.5 ease-in-out;
                 }
             }
         }

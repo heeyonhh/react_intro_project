@@ -6,7 +6,7 @@ const Ani = () => {
         <div id="ani" className="item" data-bgcolor="#e5e3db">
             <div className="ani_wrap">
                 <div className="ani">
-                    Constantly evolving, New front-end developers.</div>
+                    Constantly evolving, New front-end developer.</div>
             </div>
         </div>
     );

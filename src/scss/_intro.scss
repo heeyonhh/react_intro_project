@@ -14,6 +14,7 @@
 
     .intro_top {
         width: 100%;
+        height: 35%;
         height: auto;
         @include flex-j-between;
 
@@ -43,9 +44,11 @@
 
 .intro_center {
     width: 100%;
-    height: 70%;
+    height: 40%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
 
     .intro_center_img {
         width: 250px;
@@ -54,12 +57,25 @@
         background-size: cover;
         background-position: center;
         transition: all .6s ease-in-out;
+        border-radius: 20px;
+    }
+
+    .intro_line {
+        width: 100%;
+        height: 10px;
+        color: #fff;
+        border-top: 1px solid;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: transform 1.8s cubic-bezier(.075, .82, .165, 1);
+        transition-delay: 0s;
+        transform-origin: center left;
     }
 }
 
 .intro_wrap {
     width: 100%;
-    height: 10%;
+    height: 25%;
     display: flex;
     align-items: flex-end;
 
@@ -98,6 +114,13 @@
 
 #intro .nav .menu.animate:hover::after {
     transform: scale(1);
+    transform-origin: center left;
+}
+
+.intro_center .intro_line.ready {
+    opacity: .4;
+    transform: scaleX(1);
+    transition-delay: .8s;
     transform-origin: center left;
 }
 
