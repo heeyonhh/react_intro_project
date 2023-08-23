@@ -1,3 +1,4 @@
+// 폰트 리셋
 @font-face {
   font-family: 'PPMori-SemiBold';
   src: url("/font/PPMori-SemiBold.otf") format('opentype');
@@ -8,7 +9,13 @@
   src: url('/font/NEXON-Gothi-OTF.otf') format('opentype');
 }
 
-// border-box 초기화
+body,button,
+input,select,
+table,textarea {
+  font-family: var(--mainEng-font), var(--mainKor-font), "Apple SD Gothic Neo","Malgun Gothic", "맑은 고딕", helvetica, sans-serif;
+}
+
+// border-box 리셋
 *,
 *:before,
 *:after {
@@ -18,47 +25,23 @@
 }
 
 body,
-button,
-dd,
-dl,
-dt,
-fieldset,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-legend,
-li,
-ol,
-p,
-select,
-table,
-td,
-textarea,
-th,
-ul,
-figure,
-figcaption {
+button,dd,dl,dt,fieldset,form,
+h1,h2,h3,h4,h5,h6,
+input,legend,
+ul,li,ol,
+span,p,select,table,
+td,textarea,th,
+figure,figcaption {
   margin: 0;
   padding: 0;
 }
 
-// 폰트
-body,
-button,
-input,
-select,
-table,
-textarea {
-  font-family: var(--mainEng-font), var(--mainKor-font), "Apple SD Gothic Neo",
-    "Malgun Gothic", "맑은 고딕", helvetica, sans-serif;
+// 스타일
+html{
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-// a
 a,
 a:hover,
 a:focus {
@@ -66,13 +49,7 @@ a:focus {
   text-decoration: none;
 }
 
-// 스타일
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
 }
 
@@ -80,8 +57,7 @@ ul {
   list-style: none;
 }
 
-em,
-address {
+em, address {
   font-style: normal;
 }
 
@@ -92,20 +68,4 @@ strong {
 img {
   vertical-align: top;
   width: 100%;
-}
-
-// 스킵
-#skip a {
-  position: absolute;
-  left: 10px;
-  top: -92px;
-  z-index: 100000;
-  font-size: 1rem;
-  padding: 10px 30px;
-  color: var(--white);
-  background: var(--black);
-}
-#skip a:focus,
-#skip a:active {
-  top: 10px;
 }

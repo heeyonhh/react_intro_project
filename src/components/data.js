@@ -38,8 +38,8 @@ export const aboutData = [
         title: 'Skill',
         content: [
             '언어 / HTML CSS Javascript Typescript',
-            '라이브러리 / jQuery React ReactNative',
-            'GitHub MUI Bootstrap Expo Firebase',
+            '라이브러리 / jQuery React Redux Recoil Sass',
+            'GitHub MUI Bootstrap Reactnative Expo Firebase',
             '디자인툴 / Photoshop Illustrator Figma',
         ],
     },
@@ -50,29 +50,21 @@ export const projectData = [
         title: "플라토 커피 주문 앱",
         type: "Project 1",
         info: "설명",
-        UseStack: "react.js/redux/firebase/mui/bootstrap/figma",
+        UseStack: "react.js/redux/recoil/kakaoapi/mui/bootstrap/figma",
         img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
     {
         title: "COS 홈페이지",
         type: "Project 2",
         info: "설명",
-        UseStack: "html5/css3/jquery",
-        img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
-    },
-    {
-        title: "APP",
-        type: "Project 3",
-        info: "설명",
-        view: "netlify",
-        UseStack: "react native/expo",
+        UseStack: "html5/css3/javascripy/jquery",
         img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
     {
         title: "HEEPOLIO",
-        type: "Project 4",
+        type: "Project 3",
         info: "설명",
-        UseStack: "react.js/sass",
+        UseStack: "react.js/sass/gsap/figma",
         img: <img src="https://raw.githubusercontent.com/heeyonhh/responsiveproject_cos/main/img/section2.jpg" />
     },
 ];
