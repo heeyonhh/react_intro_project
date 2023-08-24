@@ -33,6 +33,7 @@
                 width: 50%;
                 height: 100%;
                 padding: 50px;
+                color: #ffffff;
 
                 span{
                     display: block;
@@ -41,14 +42,12 @@
                 .project_title{
                     font-size: 2rem;
                     margin-bottom: 20px;
-                    color: #1c1c1c;
                     transition: all 0.5s ease-in-out;
                 }
 
                 .project_type, .project_info{
                     font-size: 1.3rem;
                     line-height: 1.5;
-                    color: #1c1c1c;
                     transition: all 0.5 ease-in-out;
                 }
             }

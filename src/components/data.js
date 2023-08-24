@@ -49,10 +49,9 @@ export const aboutData = [
 
 export const projectData = [
     {
-        color: "#ffffff",
         bgcolor: "#212125",
         img: <img src={projectimg1} />,
-        url:"https://coskorea.netlify.app",
+        url: "https://coskorea.netlify.app",
         logo: "COS",
         title: "COS 홈페이지",
         type: "Project 1",
@@ -61,21 +60,19 @@ export const projectData = [
         UseStack: "html5/css3/javascripy/jquery",
     },
     {
-        color: "#212125",
         bgcolor: "#5A5148",
         img: <img src={projectimg2} />,
         url: "https://platocoffee.netlify.app/",
-        logo: <p>plato<br/>coffee</p>,
+        logo: <p>plato<br />coffee</p>,
         title: "플라토 커피 주문 앱",
         type: "Project 2",
         info: "설명",
         UseStack: "react.js/redux/recoil/kakaoapi/mui/bootstrap/figma",
     },
     {
-        color: "#ffffff",
         bgcolor: "#212125",
         img: <img src={projectimg3} />,
-        url:null,
+        url: null,
         logo: "'HEEPOLIO'",
         title: "HEEPOLIO",
         type: "Project 3",
@@ -83,3 +80,12 @@ export const projectData = [
         UseStack: "react.js/sass/gsap/figma",
     },
 ];
+
+export const contactData = [
+    { icon: "🐙", label: "GitHub", detail: "github.com/heeyonhh", url: "https://github.com/heeyonhh/react_intro_project"},
+    { icon: "✉️", label: "Email", detail: "lightram23@gmail.com", url: null },
+    { icon: "📱", label: "Phone", detail: "010 7271 6432", url: null },
+  ];
+  
+  const [github, email, instagram] = contactData;
+  export const Tabs = [github, email, instagram];

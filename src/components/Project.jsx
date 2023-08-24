@@ -44,7 +44,7 @@ const Project = () => {
                 <p className="project_logo">{project.logo}</p>
               </Link>
             </div>
-            <div className="project_info_wrap aniitem" style={{ color: project.color }}>
+            <div className="project_info_wrap aniitem">
               <span className="project_title">{project.title}</span>
               <span className="project_type">{project.type}</span>
               <span className="project_info">{project.info}</span>

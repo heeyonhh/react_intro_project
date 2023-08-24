@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { motion } from "framer-motion";
 
 import { Nav } from "./data";
 
@@ -53,14 +54,17 @@ const Intro = () => {
                     <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         {Nav.map((nav, i) => (
                             <Link key={i} className={`menu ${animateState ? "animate" : ""}`} to={nav.id}
-                            spy={true} smooth={true} offset={0} duration={500}>
+                                spy={true} smooth={true} offset={0} duration={500}>
                                 {nav.title}
                             </Link>
                         ))}
                     </nav>
                 </div>
                 <div className="intro_center">
-                    <div className="intro_center_img" style={{ opacity: Opacity }}></div>
+                    <motion.div className="intro_center_img" style={{ opacity: Opacity }}
+                        //호버 framer-motion 애니
+                        whileHover={{ scale: 1.1 }}
+                        transition={{ type: "spring", damping: 1 }}></motion.div>
                     <p className="intro_line"></p>
                 </div>
                 <div className='intro_wrap'>
