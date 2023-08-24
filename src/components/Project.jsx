@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { projectData } from "./data";
-const projectbg = ["#212125", "#5A5148", "#212125"];
 
 const Project = () => {
   useEffect(() => {
@@ -38,14 +37,14 @@ const Project = () => {
     <section id="project" className="item" data-bgcolor="#212125">
       <div className="project_wrap">
         {projectData.map((project, i) => (
-          <div key={i} className="project item" data-bgcolor={projectbg[i]}>
+          <div key={i} className="project item" data-bgcolor={project.bgcolor}>
             <div className="project_url_wrap">
               <Link to={project.url} className="project_url" target="_blank" rel="noopener noreferrer">
                 {project.img}
                 <p className="project_logo">{project.logo}</p>
               </Link>
             </div>
-            <div className="project_info_wrap aniitem">
+            <div className="project_info_wrap aniitem" style={{ color: project.color }}>
               <span className="project_title">{project.title}</span>
               <span className="project_type">{project.type}</span>
               <span className="project_info">{project.info}</span>

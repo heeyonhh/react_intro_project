@@ -4,19 +4,19 @@ import projectimg3 from "../img/project3.png";
 
 export const Nav = [
     {
-        id: "#intro",
+        id: "intro",
         title: "Home"
     },
     {
-        id: "#about",
+        id: "about",
         title: "About"
     },
     {
-        id: "#project",
+        id: "project",
         title: "Project",
     },
     {
-        id: "#contact",
+        id: "contact",
         title: "Contact",
     },
 ];
@@ -29,12 +29,10 @@ export const aboutData = [
             'Date Of Birth / 1992 08 27',
             'Professional Certificates /',
             'NCS UI&UX 디자인 프론트엔드 개발자 양성 심사과정 수료',
-            '웹디자인 기능사',
-            '컴퓨터 그래픽스 운용기능사',
+            '웹디자인 기능사, 컴퓨터 그래픽스 운용기능사',
             '2종 보통 운전면허',
             'Work Experience /',
-            'AK MALL 패션잡화 AMD',
-            '패션 브랜드 피칸파이 운영',
+            'AK MALL 패션잡화 AMD, 패션 브랜드 피칸파이 운영',
             'Phone / 010 7271 6432'
         ],
     },
@@ -51,6 +49,8 @@ export const aboutData = [
 
 export const projectData = [
     {
+        color: "#ffffff",
+        bgcolor: "#212125",
         img: <img src={projectimg1} />,
         url:"https://coskorea.netlify.app",
         logo: "COS",
@@ -61,6 +61,8 @@ export const projectData = [
         UseStack: "html5/css3/javascripy/jquery",
     },
     {
+        color: "#212125",
+        bgcolor: "#5A5148",
         img: <img src={projectimg2} />,
         url: "https://platocoffee.netlify.app/",
         logo: <p>plato<br/>coffee</p>,
@@ -70,6 +72,8 @@ export const projectData = [
         UseStack: "react.js/redux/recoil/kakaoapi/mui/bootstrap/figma",
     },
     {
+        color: "#ffffff",
+        bgcolor: "#212125",
         img: <img src={projectimg3} />,
         url:null,
         logo: "'HEEPOLIO'",

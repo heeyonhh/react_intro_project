@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -52,7 +52,8 @@ const Intro = () => {
                     </span>
                     <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         {Nav.map((nav, i) => (
-                            <Link key={i} className={`menu ${animateState ? "animate" : ""}`} to={nav.id}>
+                            <Link key={i} className={`menu ${animateState ? "animate" : ""}`} to={nav.id}
+                            spy={true} smooth={true} offset={0} duration={500}>
                                 {nav.title}
                             </Link>
                         ))}
