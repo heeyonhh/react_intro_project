@@ -8,7 +8,7 @@ const Ani = () => {
         <div id="ani" className="item" data-bgcolor="#e5e3db">
             <div className="ani_wrap">
                 <div className="ani">
-                    <img src={footerimg} alt="footerimg" /> Constantly evolving, New front-end developer.
+                    Constantly evolving, New&nbsp;<img src={footerimg} alt="footerimg" />&nbsp;front-end developer.&nbsp;<img src={footerimg} alt="footerimg" />
                 </div>
             </div>
         </div>

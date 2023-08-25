@@ -63,3 +63,26 @@
 
     }
 }
+
+@media (max-width: 425px) {
+    #about .about_wrap{
+        flex-direction: column;
+    }
+
+    #about .about_wrap .about_left img{
+        border-radius: 20px;
+    }
+
+    #about .about_wrap .about_right {
+        width: 100%;
+        height: 50%;
+    }
+
+    #about .about_wrap .about_right .about_title {
+        font-size: 2rem;
+    }
+
+    #about .about_wrap .about_right .about_text p{
+        font-size: 0.9rem;
+    }
+}

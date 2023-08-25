@@ -76,7 +76,7 @@
         width: 550px;
         height: 300px;
       }
-  }
+    }
 
     nav {
       background: #f0f0f0;
@@ -128,21 +128,41 @@
       justify-content: center;
       align-items: center;
 
-      .ui_detail{
+      .ui_detail {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
 
-        .detail_icon{
+        .detail_icon {
           font-size: 7rem;
         }
 
-        .detail_detail{
+        .detail_detail {
           font-size: 2rem;
           color: #212125;
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact {
+    height: 100vh;
+  }
+
+  #contact .contact_center .ui {
+    width: 350px;
+  }
+
+  #contact .contact_center .ui_detail_wrap .ui_detail .detail_detail{
+    font-size: 1.7rem;
   }
 }

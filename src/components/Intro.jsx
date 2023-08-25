@@ -45,7 +45,9 @@ const Intro = () => {
     return (
         <>
             <div className="intro_bg"></div>
+
             <div id="intro" data-bgcolor="#212125" className='item'>
+
                 <div className="intro_top">
                     <span className="intro_text" style={{ opacity: Opacity }}>
                         Constantly<br />evolving,<br />
@@ -60,6 +62,7 @@ const Intro = () => {
                         ))}
                     </nav>
                 </div>
+
                 <div className="intro_center">
                     <motion.div className="intro_center_img" style={{ opacity: Opacity }}
                         //호버 framer-motion 애니
@@ -67,11 +70,13 @@ const Intro = () => {
                         transition={{ type: "spring", damping: 1 }}></motion.div>
                     <p className="intro_line"></p>
                 </div>
+
                 <div className='intro_wrap'>
                     <p className={`intro_logo ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         Heeyon Kim
                     </p>
                 </div>
+                
             </div >
         </>
     );

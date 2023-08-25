@@ -27,8 +27,44 @@
             }
 
             img {
-                width: 500px;
+                width: 400px;
                 border-radius: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #ani {
+        height: 500px;
+
+        .ani_wrap {
+            line-height: 1;
+
+            .ani {
+                font-size: 35rem;
+
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    #ani {
+        height: 400px;
+
+        .ani_wrap {
+            line-height: 1;
+
+            .ani {
+                font-size: 30rem;
+
+                img {
+                    width: 250px;
+                }
             }
         }
     }
