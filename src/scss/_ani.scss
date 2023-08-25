@@ -9,11 +9,12 @@
         height: 100%;
         white-space: nowrap;
         line-height: 1.2;
+        @include flex-center;
 
         .ani {
             @include flex-center;
             animation-play-state: running;
-            animation: ani 20s infinite linear;
+            animation: ani 200s infinite linear;
             font-size: 50rem;
 
             @keyframes ani {
@@ -54,10 +55,10 @@
 
 @media (max-width: 425px) {
     #ani {
-        height: 500px;
+        height: 450px;
 
         .ani_wrap {
-            line-height: 1;
+            line-height: 0.8;
 
             .ani {
                 font-size: 30rem;
