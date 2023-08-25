@@ -72,7 +72,7 @@ export const projectData = [
     {
         bgcolor: "#212125",
         img: <img src={projectimg3} />,
-        url: null,
+        url: "https://heepolio.netlify.app/",
         logo: "'HEEPOLIO'",
         title: "HEEPOLIO",
         type: "Project 3",
