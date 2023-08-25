@@ -87,6 +87,12 @@
         line-height: 1;
         transition: all .6s ease-in-out;
     }
+
+    @media (max-width: 768px) {
+        .intro_logo {
+            font-size: 6rem;
+        }
+    }
 }
 
 #intro .nav.animate {

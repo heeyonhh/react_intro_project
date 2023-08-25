@@ -54,3 +54,26 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    #project {
+        height: 300%;
+
+        .project_wrap {
+            height: 100%;
+
+            .project .project_info_wrap {
+                padding: 20px;
+
+                .project_title {
+                    font-size: 1.5rem;
+                    margin-bottom: 10px;
+                }
+
+                .project_type, .project_info {
+                    font-size: 0.86rem;
+                }
+            }
+        }
+    }
+}

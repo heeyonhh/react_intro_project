@@ -39,6 +39,27 @@
                     transition: all 0.5 ease-in-out;
                 }
             }
+
         }
+
+        @media (max-width: 768px) {
+            .about_right {
+                padding: 20px;
+
+                .about_title {
+                    font-size: 1.5rem;
+                    margin-bottom: 10px;
+                }
+
+                .about_text {
+                    margin-bottom: 30px;
+    
+                    p{
+                        font-size: 0.86rem;
+                    }
+                }
+            }
+        }
+
     }
 }
