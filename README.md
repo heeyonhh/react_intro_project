@@ -39,7 +39,7 @@ Software & Design Tool
 
 
 
-# 프로젝트 2. 플라토 커피 주문 앱 for React
+# 프로젝트 2. 플라토 커피 주문 앱 made with React
 
 ## https://platocoffee.netlify.app/
 
@@ -76,7 +76,7 @@ Software & Design Tool
 
 
 
-# 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio for React
+# 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio made with React
 
 ## https://heepolio.netlify.app/
 
