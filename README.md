@@ -68,7 +68,7 @@ COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이�
 
 # 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio for React
 
-# NETLIFY URL url
+# https://heepolio.netlify.app/
 
 ## 소개
 
