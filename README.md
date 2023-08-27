@@ -2,6 +2,8 @@
 
 # https://coskorea.netlify.app/
 
+# https://github.com/heeyonhh/responsiveproject_cos
+
 HTML, CSS, Javascript를 사용하여 만든 반응형 웹 표준 사이트입니다.
 
 COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이도록 제작하였으며,
