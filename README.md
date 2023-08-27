@@ -1,6 +1,6 @@
 # 프로젝트 1. COS 반응형 웹사이트
 
-# NETLIFY URL url
+# https://coskorea.netlify.app/
 
 ## 소개
 
