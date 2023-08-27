@@ -10,19 +10,19 @@
   
 - gapi로 사용자의 위치를 가져온 후 배송 국가 표시
   
-- netlify를 통한 사이트 배포
+- Netlify를 통한 사이트 배포
 
 ## 사용 스택
 
-Platforms & Languages
+- Platforms & Languages
 
 JavaScript / HTML5 / CSS3
 
-Frameworks & Library
+- Frameworks & Library
 
 jQuery
 
-Software & Design Tool
+- Software & Design Tool
 
 Git / Visual Studio Code / Figma
 
@@ -47,13 +47,13 @@ Git / Visual Studio Code / Figma
 
 ## 사용 스택
 
-Frameworks & Library
+- Frameworks & Library
 
 React-router-dom / Redux / Recoil & RecoilPersist
 
 Material-UI / bootstrap / Geolocation API / Kakao Login API
 
-Software & Design Tool
+- Software & Design Tool
 
 Git / Visual Studio Code / Figma
 
@@ -75,15 +75,13 @@ Git / Visual Studio Code / Figma
 - GSAP, Framer-motion 라이브러리를 사용하여 배경화면, 텍스트, 이미지 패럴랙스 효과를 구현
 
 - React-scroll 패키지를 통해 섹션간 스크롤 이동을 관리
-  
-- Netlify를 통한 사이트 배포
 
 ## 사용 스택
 
-Frameworks & Library
+- Frameworks & Library
 
 React-scroll / Scss / GSAP / Framer-motion
 
-Software & Design Tool
+- Software & Design Tool
 
 Git / Visual Studio Code / Figma
