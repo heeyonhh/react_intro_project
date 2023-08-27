@@ -16,15 +16,15 @@
 
 - Platforms & Languages
 
-JavaScript / HTML5 / CSS3
+  JavaScript / HTML5 / CSS3
 
 - Frameworks & Library
 
-jQuery
+  jQuery
 
 - Software & Design Tool
 
-Git / Visual Studio Code / Figma
+  Git / Visual Studio Code / Figma
 
 
 # 프로젝트 2. 플라토 커피 주문 앱 for React
@@ -49,13 +49,13 @@ Git / Visual Studio Code / Figma
 
 - Frameworks & Library
 
-React-router-dom / Redux / Recoil & RecoilPersist
+  React-router-dom / Redux / Recoil & RecoilPersist
 
-Material-UI / bootstrap / Geolocation API / Kakao Login API
+  Material-UI / bootstrap / Geolocation API / Kakao Login API
 
 - Software & Design Tool
 
-Git / Visual Studio Code / Figma
+  Git / Visual Studio Code / Figma
 
 
 # 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio for React
@@ -80,8 +80,8 @@ Git / Visual Studio Code / Figma
 
 - Frameworks & Library
 
-React-scroll / Scss / GSAP / Framer-motion
+  React-scroll / Scss / GSAP / Framer-motion
 
 - Software & Design Tool
 
-Git / Visual Studio Code / Figma
+  Git / Visual Studio Code / Figma
