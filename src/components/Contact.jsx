@@ -4,7 +4,6 @@ import { Tabs } from "./data";
 
 import footerimg from "../img/ef_img1.jpg"
 import backtop from "../img/back-top.png"
-import { Navigate } from "react-router-dom";
 
 const Contact = () => {
 

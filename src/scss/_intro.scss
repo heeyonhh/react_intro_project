@@ -131,7 +131,7 @@
     position: fixed;
     top: 20px;
     left: 20px;
-    font-size: 2em;
+    font-size: 1.8rem;
     color: #1c1c1c;
     z-index: 999;
 }
@@ -169,6 +169,10 @@
         justify-content: unset;
         align-items: end;
         line-height: 0.8;
+    }
+
+    #intro .nav .menu.animate:hover::after{
+        transform: scale(0);
     }
 
     .intro_center{

@@ -44,10 +44,15 @@ const Project = () => {
                 <p className="project_logo">{project.logo}</p>
               </Link>
             </div>
-            <div className="project_info_wrap aniitem">
-              <span className="project_title">{project.title}</span>
-              <span className="project_type">{project.type}</span>
-              <span className="project_info">{project.info}</span>
+            <div className="project_info_wrap">
+              <span className="project_type aniitem">{project.type}</span>
+              <span className="project_title aniitem">{project.title}</span>
+              {project.info.map((info, j) => (
+                <span key={j} className="project_info aniitem">
+                  {info}
+                </span>
+              ))}
+              <span className="project_usestack aniitem">{project.useStack}</span>
             </div>
           </div>
         ))}
