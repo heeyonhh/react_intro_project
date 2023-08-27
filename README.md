@@ -22,17 +22,17 @@ COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이�
 
 ## 사용 스택
 
-- Platforms & Languages
+- Languages
 
-  JavaScript / HTML5 / CSS3
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
 - Frameworks & Library
 
-  jQuery
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 
 - Software & Design Tool
-
-  Git / Visual Studio Code / Figma
+  
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 
 
 # 프로젝트 2. 플라토 커피 주문 앱 for React
@@ -57,13 +57,15 @@ COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이�
 
 - Frameworks & Library
 
-  React-router-dom / Redux / Recoil & RecoilPersist
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white">
 
-  Material-UI / bootstrap / Geolocation API / Kakao Login API
+<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
+
+Geolocation API & Kakao Login API
 
 - Software & Design Tool
 
-  Git / Visual Studio Code / Figma
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 
 
 # 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio for React
@@ -88,8 +90,8 @@ COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이�
 
 - Frameworks & Library
 
-  React-scroll / Scss / GSAP / Framer-motion
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/sap-0FAAFF?style=for-the-badge&logo=sap&logoColor=white"> <img src="https://img.shields.io/badge/framer-0055FF?style=for-the-badge&logo=framer&logoColor=white">
 
 - Software & Design Tool
 
-  Git / Visual Studio Code / Figma
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
