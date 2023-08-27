@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.794ddd01.css",
+    "main.css": "/static/css/main.1c242dbb.css",
     "main.js": "/static/js/main.bf84cd86.js",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.95021d6521d2045bb526.jpg",
     "static/media/NEXON-Gothi-OTF.otf": "/static/media/NEXON-Gothi-OTF.ed7ab48e8ebc5da0f544.otf",
@@ -10,11 +10,11 @@
     "static/media/ef_img1.jpg": "/static/media/ef_img1.f088f4a42b018efb396a.jpg",
     "static/media/PPMori-SemiBold.otf": "/static/media/PPMori-SemiBold.336abfe2da355e4fa8dd.otf",
     "index.html": "/index.html",
-    "main.794ddd01.css.map": "/static/css/main.794ddd01.css.map",
+    "main.1c242dbb.css.map": "/static/css/main.1c242dbb.css.map",
     "main.bf84cd86.js.map": "/static/js/main.bf84cd86.js.map"
   },
   "entrypoints": [
-    "static/css/main.794ddd01.css",
+    "static/css/main.1c242dbb.css",
     "static/js/main.bf84cd86.js"
   ]
 }
