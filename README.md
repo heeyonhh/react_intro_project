@@ -76,9 +76,9 @@ Software & Design Tool
 
 
 
-# 프로젝트 3. HEEPOLIO : Heeyon Kim PortPolio made with React
+# 프로젝트 3. HEEFOLIO : Heeyon Kim Portfolio made with React
 
-## https://heepolio.netlify.app/
+## https://heefolio.netlify.app/
 
 ## now repo
 
