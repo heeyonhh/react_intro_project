@@ -78,9 +78,9 @@ export const projectData = [
     {
         bgcolor: "#212125",
         img: <img src={projectimg3} />,
-        url: "https://heepolio.netlify.app/",
-        logo: "`HEEPOLIO`",
-        title: "`HEEPOLIO` made with React",
+        url: "https://heefolio.netlify.app/",
+        logo: "`HEEFOLIO`",
+        title: "`HEEFOLIO` made with React",
         type: "Project 3",
         info: [ "React를 사용하여 반응형으로 제작한 저만의 색깔을 담아낸 포트폴리오 사이트 입니다.",
         "lenis 라이브러리를 이용한 스코롤 스무스 초기 설정을 구현하였으며",

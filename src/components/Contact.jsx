@@ -21,7 +21,7 @@ const Contact = () => {
     <footer id="contact" className="item" data-bgcolor="#e5e3db">
       <div className="contact_ani_wrap">
         <div className="contact_ani">
-          <img src={footerimg} alt="footerimg" /> ` HEEPOLIO ` lightram23@gmail.com <img src={footerimg} alt="footerimg" /> ` HEEPOLIO ` lightram23@gmail.com <img src={footerimg} alt="footerimg" /> ` HEEPOLIO ` lightram23@gmail.com</div>
+          <img src={footerimg} alt="footerimg" /> ` HEEFOLIO ` lightram23@gmail.com <img src={footerimg} alt="footerimg" /> ` HEEFOLIO ` lightram23@gmail.com <img src={footerimg} alt="footerimg" /> ` HEEFOLIO ` lightram23@gmail.com</div>
       </div>
       <div className="contact_right">
         <div className="backtop_box aniitem" onClick={scrollToTop}>
