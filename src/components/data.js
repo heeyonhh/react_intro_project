@@ -40,8 +40,8 @@ export const aboutData = [
         title: 'Skill',
         content: [
             '언어 / HTML CSS Javascript Typescript',
-            '라이브러리 / JQuery React Redux Recoil Sass Gsap AWS',
-            'Framer-motion GitHub MUI Bootstrap React-native Expo',
+            '라이브러리 / React JQuery',
+            'GitHub MUI Bootstrap GSAP Framer-motion',
             '디자인툴 / Photoshop Illustrator Figma',
         ],
     },
