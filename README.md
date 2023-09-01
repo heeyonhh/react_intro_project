@@ -61,6 +61,10 @@ Software & Design Tool
 
 ## 문제 해결 방법
 
+## 기여도
+
+기획, 디자인, 프론트엔드 전부
+
 ## 사용 스택
 
 Frameworks & Library
