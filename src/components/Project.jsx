@@ -53,6 +53,7 @@ const Project = () => {
                 </span>
               ))}
               <span className="project_usestack aniitem">{project.useStack}</span>
+              <span className="project_usestack aniitem">{project.contribute}</span>
             </div>
           </div>
         ))}
