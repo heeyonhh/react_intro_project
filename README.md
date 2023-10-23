@@ -84,7 +84,7 @@ Software & Design Tool
 
 # 프로젝트 3. HEEFOLIO : Heeyon Kim Portfolio made with React
 
-## https://heefolio.netlify.app/
+## https://hee-folio.netlify.app/
 
 ## now repo
 
