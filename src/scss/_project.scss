@@ -84,7 +84,11 @@
                 }
 
                 .project_type, .project_info {
-                    font-size: 0.86rem;
+                    font-size: 0.64rem;
+                }
+
+                .project_usestack{
+                    font-size: 1rem;
                 }
             }
         }
@@ -98,10 +102,15 @@
 
     #project .project_wrap .project .project_info_wrap{
         width: 100%;
+        padding-bottom: 50px;
     }
 
     #project .project_wrap .project .project_url_wrap .project_url img{
         border-radius: 20px;
+    }
+
+    #project .project_wrap .project .project_url_wrap .project_url .project_logo{
+        font-size: 1.5rem;
     }
 
     #project .project_wrap .project .project_info_wrap .project_title{
@@ -113,7 +122,7 @@
     }
 
     #project .project_wrap .project .project_info_wrap .project_usestack{
+        margin-top: 20px;
         font-size: 1rem;
-        padding-bottom: 50px;
     }
 }

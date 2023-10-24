@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.041c5b10.css",
-    "main.js": "/static/js/main.b0677a2e.js",
+    "main.css": "/static/css/main.d41087b4.css",
+    "main.js": "/static/js/main.e8eae5c4.js",
     "static/media/aboutimg.jpg": "/static/media/aboutimg.95021d6521d2045bb526.jpg",
     "static/media/NEXON-Gothi-OTF.otf": "/static/media/NEXON-Gothi-OTF.ed7ab48e8ebc5da0f544.otf",
     "static/media/project1.png": "/static/media/project1.26330360fc86bbeaa03c.png",
@@ -12,11 +12,11 @@
     "static/media/project2.jpg": "/static/media/project2.2ef5ad2030998872c14b.jpg",
     "static/media/project3.jpg": "/static/media/project3.fb051967e6989849bb5e.jpg",
     "index.html": "/index.html",
-    "main.041c5b10.css.map": "/static/css/main.041c5b10.css.map",
-    "main.b0677a2e.js.map": "/static/js/main.b0677a2e.js.map"
+    "main.d41087b4.css.map": "/static/css/main.d41087b4.css.map",
+    "main.e8eae5c4.js.map": "/static/js/main.e8eae5c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.041c5b10.css",
-    "static/js/main.b0677a2e.js"
+    "static/css/main.d41087b4.css",
+    "static/js/main.e8eae5c4.js"
   ]
 }

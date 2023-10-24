@@ -51,7 +51,7 @@ const Intro = () => {
                 <div className="intro_top">
                     <span className="intro_text" style={{ opacity: Opacity }}>
                         Constantly<br />evolving,<br />
-                        New<br />Web publisher.
+                        New<br />web publisher.
                     </span>
                     <nav className={`nav ${animateState ? "animate" : ""}`} style={{ opacity: Opacity }}>
                         {Nav.map((nav, i) => (
