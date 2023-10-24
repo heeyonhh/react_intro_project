@@ -41,9 +41,9 @@ Software & Design Tool
 
 # 프로젝트 3. 화성시 보건소 사이트
 
-## 
+## https://heeyonhh.github.io/jquery_design/
 
-## 
+## https://github.com/heeyonhh/jquery_design
 
 기존의 화성시 보건소 사이트에 전체 연령대에 명료하게 정보를 전달해야함을 잃지 않으면서도 컬러와 동적인 요소를 주어 리디자인
 
