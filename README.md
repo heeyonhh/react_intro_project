@@ -80,22 +80,11 @@ Software & Design Tool
 <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 
 
-# 프로젝트 3. My weather
-
-## https://github.com/heeyonhh/vue_app
-
-## 기능 소개
-
-## 문제 해결 방법
-
-## 기여도
-
-## 사용 스택
 
 
 # 프로젝트 3. HEEFOLIO : Heeyon Kim Portfolio made with React
 
-## https://heefolio.netlify.app/
+## https://hee-folio.netlify.app/
 
 ## now repo
 
