@@ -1,18 +1,119 @@
-# 프로젝트 1. COS 반응형 웹사이트
+# 프로젝트 1. 넥센타이어 반응형 웹사이트
+
+## https://heeyonhh.github.io/Responsive_design/
+
+## https://github.com/heeyonhh/Responsive_design
+
+## 소개
+
+- 웹 표준, 웹 접근성을 준수한 클론 코딩 프로젝트
+
+- CSS & jQuery를 적절하게 믹스하여 포인트를 살린 웹 퍼블리싱
+
+- 미디어 쿼리를 이용하여 반응형으로 제작
+
+- jQuery 슬라이드 배너 & 동영상 구현
+
+## 사용 스택
+
+Languages
+
+  <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+Frameworks & Library
+
+  <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+
+Software & Design Tool
+  
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+
+
+  
+# 프로젝트 2. 화성시 보건소 사이트
+
+## https://heeyonhh.github.io/jquery_design/
+
+## https://github.com/heeyonhh/jquery_design
+
+## 소개
+
+- Open Weather Map API 사용 화성시 날씨 페이지에 표현
+  
+- 인사말 페이지 타이포 제이쿼리 & 로그인 페이지 탭메뉴 구현
+
+- 의료 기관 서브 페이지에 게시판 페이지 구현
+
+- 동영상, 지도 삽입
+
+## 사용 스택
+
+Languages
+
+  <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+Frameworks & Library
+
+  <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+
+Software & Design Tool
+  
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+
+
+  
+# 프로젝트 3. 플라토 커피 주문 앱 made with React
+
+## https://platocoffee.netlify.app/
+
+## https://github.com/heeyonhh/react-project
+
+## 기능 소개
+
+- 플라토 커피라는 브랜드를 만들어 앱 루트 구현
+
+- 사용자의 위치 정보를 기반으로 가까운 매장 계산하여 보여주고 선택할 수 있는 기능
+
+- 카카오 Api 로그인 구현 & Recoil persist 통한 로그인 상태 저장 기능
+
+- Redux 상품 관리와 함께 메인페이지의 카테고리 별로 추천되는 추천 메뉴 영역 구성
+
+- 매장 선택 여부(이미 매장을 선택하고 다시 상품을 고를 때) 매장 페이지 연결되지 않게 구현
+
+- 사용자 주문 상품 정보 및 매장 정보 저장 총 주문 금액 계산 기능을 구현 후 주문 옵션과 결제 수단 선택하여 최종 결제 진행하는 루트 구현
+
+## 기여도
+
+기획, 디자인, 프론트엔드 전부
+
+## 사용 스택
+
+Frameworks & Library
+
+<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white">
+
+<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
+
+Geolocation API & Kakao Login API
+
+Software & Design Tool
+
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+
+
+
+
+# 프로젝트 4. COS 반응형 웹사이트
 
 ## https://coskorea.netlify.app/
 
 ## https://github.com/heeyonhh/responsiveproject_cos
 
-HTML, CSS, Javascript를 사용하여 만든 반응형 웹 표준 사이트입니다.
-
-COS 공식 사이트의 레이아웃 디자인과 기능을 유사하게 보이도록 제작하였으며,
-
-유저에게 브랜드의 미니멀함과 고급스러움을 잘 전달할 수 있도록
-
-기존 COS의 디자인에서 더 깔끔하게 리디자인 하는 것에 중점을 두었습니다.
-
 ## 소개
+
+- 웹 표준, 웹 접근성을 준수한 클론 코딩 프로젝트
 
 - CSS & jQuery를 적절하게 믹스하여 심플하면서도 고급스러운 웹 퍼블리싱
 
@@ -39,52 +140,10 @@ Software & Design Tool
 
 
 
-# 프로젝트 2. 플라토 커피 주문 앱 made with React
 
-## https://platocoffee.netlify.app/
+# 프로젝트 5. HEEFOLIO : Heeyon Kim Portfolio made with React
 
-## https://github.com/heeyonhh/react-project
-
-## 기능 소개
-
-- 플라토 커피라는 브랜드를 만들어 앱 루트 구현
-
-- 사용자의 위치 정보를 기반으로 가까운 매장 계산하여 보여주고 선택할 수 있는 기능
-
-- 카카오 Api 로그인 구현 & Recoil persist 통한 로그인 상태 저장 기능
-
-- Redux 상품 관리와 함께 메인페이지의 카테고리 별로 추천되는 추천 메뉴 영역 구성
-
-- 매장 선택 여부(이미 매장을 선택하고 다시 상품을 고를 때) 매장 페이지 연결되지 않게 구현
-
-- 사용자 주문 상품 정보 및 매장 정보 저장 총 주문 금액 계산 기능을 구현 후 주문 옵션과 결제 수단 선택하여 최종 결제 진행하는 루트 구현
-
-## 문제 해결 방법
-
-## 기여도
-
-기획, 디자인, 프론트엔드 전부
-
-## 사용 스택
-
-Frameworks & Library
-
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white">
-
-<img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
-
-Geolocation API & Kakao Login API
-
-Software & Design Tool
-
-<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-
-
-
-
-# 프로젝트 3. HEEFOLIO : Heeyon Kim Portfolio made with React
-
-## https://hee-folio.netlify.app/
+## https://heefolio.netlify.app/
 
 ## now repo
 
