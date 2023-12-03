@@ -72,6 +72,8 @@ Software & Design Tool
 
 ✅ 사용자 위치정보(Geolocation API) 얻어 가까운 매장 리스트 업 기능
 
+✅ KaKao Auth로 얻은 Restful Api properties를 클라이언트에 구성
+
 🔎 문제해결
 
 KaKao Auth 요청 시 CORS 오류 발생 ✅ package.json 파일 내에서 proxy 설정
