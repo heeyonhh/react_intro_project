@@ -6,13 +6,9 @@
 
 ## 소개
 
-- 웹 표준, 웹 접근성을 준수한 클론 코딩 프로젝트
+- 웹 표준, 웹 접근성을 준수하고 미디어 쿼리를 이용하여 반응형으로 제작한 클론 코딩 프로젝트
 
-- CSS & jQuery를 적절하게 믹스하여 포인트를 살린 웹 퍼블리싱
-
-- 미디어 쿼리를 이용하여 반응형으로 제작
-
-- jQuery 슬라이드 배너 & 동영상 구현
+- CSS & jQuery를 적절하게 믹스하여 탭메뉴, 슬라이드 배너, 동영상 슬라이드, 내비게이션 구현
 
 ## 사용 스택
 
@@ -30,7 +26,7 @@ Software & Design Tool
 
 
 
-  
+
 # 프로젝트 2. 화성시 보건소 사이트
 
 ## https://heeyonhh.github.io/jquery_design/
@@ -41,11 +37,7 @@ Software & Design Tool
 
 - Open Weather Map API 사용 화성시 날씨 페이지에 표현
   
-- 인사말 페이지 타이포 제이쿼리 & 로그인 페이지 탭메뉴 구현
-
-- 의료 기관 서브 페이지에 게시판 페이지 구현
-
-- 동영상, 지도 삽입
+- 동적인 배경 애니메이션 효과, 타이포 효과, 탭메뉴 제이쿼리 구현
 
 ## 사용 스택
 
@@ -63,30 +55,27 @@ Software & Design Tool
 
 
 
-  
+
 # 프로젝트 3. 플라토 커피 주문 앱 made with React
 
 ## https://platocoffee.netlify.app/
 
 ## https://github.com/heeyonhh/react-project
 
-## 기능 소개
+🔎 주요기능
+✅ KaKao API 간편 회원가입 및 로그인
+✅ Recoil persist 로그인 및 상태 관리
+✅ Redux-toolkit 상품 상태 관리
+✅ 사용자 위치정보(Geolocation API) 얻어 가까운 매장 리스트 업 기능
 
-- 플라토 커피라는 브랜드를 만들어 앱 루트 구현
-
-- 사용자의 위치 정보를 기반으로 가까운 매장 계산하여 보여주고 선택할 수 있는 기능
-
-- 카카오 Api 로그인 구현 & Recoil persist 통한 로그인 상태 저장 기능
-
-- Redux 상품 관리와 함께 메인페이지의 카테고리 별로 추천되는 추천 메뉴 영역 구성
-
-- 매장 선택 여부(이미 매장을 선택하고 다시 상품을 고를 때) 매장 페이지 연결되지 않게 구현
-
-- 사용자 주문 상품 정보 및 매장 정보 저장 총 주문 금액 계산 기능을 구현 후 주문 옵션과 결제 수단 선택하여 최종 결제 진행하는 루트 구현
+🔎 문제해결
+KaKao API 요청 시 CORS 오류 발생 ✅ Response Headers로 해결
+매장 선택하고 상품 여러번 주문시 다시 매장 선택 페이지 뜸 ✅ Recoil로 매장 선택시 상태 저장하여 조건부 렌더링 구현
+로그인이 저장되지 않는 현상 ✅ Recoil persist로 로그인 상태 저장
 
 ## 기여도
 
-기획, 디자인, 프론트엔드 전부
+기획, 개발 100%
 
 ## 사용 스택
 
@@ -95,8 +84,6 @@ Frameworks & Library
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/reactrouter-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white">
 
 <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
-
-Geolocation API & Kakao Login API
 
 Software & Design Tool
 
@@ -113,11 +100,7 @@ Software & Design Tool
 
 ## 소개
 
-- 웹 표준, 웹 접근성을 준수한 클론 코딩 프로젝트
-
-- CSS & jQuery를 적절하게 믹스하여 심플하면서도 고급스러운 웹 퍼블리싱
-
-- 미디어 쿼리를 이용하여 반응형으로 제작
+- 웹 표준, 웹 접근성을 준수하고 미디어 쿼리를 이용하여 반응형으로 제작한 클론 코딩 프로젝트
   
 - Geolocation API로 사용자의 위치를 가져온 후 배송 국가 표시
   
@@ -140,26 +123,17 @@ Software & Design Tool
 
 
 
-
 # 프로젝트 5. HEEFOLIO : Heeyon Kim Portfolio made with React
 
 ## https://heefolio.netlify.app/
 
 ## now repo
 
-## 소개
-
-- React를 사용하여 반응형으로 제작한 김희연만의 색깔을 담아낸 포트폴리오 사이트
-
-- lenis 라이브러리를 이용한 스코롤 스무스 초기 설정을 구현
-
-- 부드러운 애니메이션을 구현할 수 있도록 Jsx, Sass, GSAP를 적절하게 믹스하여 구현 및 디자인
-
-- 윈도우 스크롤 이벤트, 로고 및 메뉴 이동, Sass 키프레임으로 애니메이션 구현
-  
-- GSAP, Framer-motion 라이브러리를 사용하여 배경화면, 텍스트, 이미지 패럴랙스 효과를 구현
-
-- React-scroll 패키지를 통해 섹션간 스크롤 이동을 관리
+🔎 주요기능
+✅ lenis 라이브러리를 이용한 스코롤 스무스 초기 설정
+✅ Scss mixin 사용으로 코드의 재사용을 높임
+✅ GSAP, Framer-motion, React-scroll 라이브러리를 사용하여 배경화면, 텍스트, 이미지 패럴랙스 효과를 구현
+✅ 부드러운 애니메이션을 구현하고 원하는 스코롤 시점에 이벤트가 작동할 수 있도록 Js, Sass, GSAP를 적절하게 믹스하여 구현 및 디자인
 
 ## 사용 스택
 
