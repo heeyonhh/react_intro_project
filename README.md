@@ -35,7 +35,7 @@ Software & Design Tool
 
 ## 소개
 
-- Open Weather Map API 사용 화성시 날씨 페이지에 표현
+- Open Weather Map API json 파일 끌어와 화성시 날씨 페이지에 표현
   
 - 동적인 배경 애니메이션 효과, 타이포 효과, 탭메뉴 제이쿼리 구현
 
@@ -64,9 +64,9 @@ Software & Design Tool
 
 🔎 주요기능
 
-✅ KaKao API 간편 회원가입 및 로그인
+✅ KaKao Auth 간편 로그인 기능
 
-✅ Recoil persist 로그인 및 상태 관리
+✅ Recoil persist 매장 상태 및 로그인 관리
 
 ✅ Redux-toolkit 상품 상태 관리
 
@@ -74,7 +74,7 @@ Software & Design Tool
 
 🔎 문제해결
 
-KaKao API 요청 시 CORS 오류 발생 ✅ Response Headers로 해결
+KaKao Auth 요청 시 CORS 오류 발생 ✅ package.json 파일 내에서 proxy 설정
 
 매장 선택하고 상품 여러번 주문시 다시 매장 선택 페이지 뜸 ✅ Recoil로 매장 선택시 상태 저장하여 조건부 렌더링 구현
 
