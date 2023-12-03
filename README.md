@@ -63,14 +63,21 @@ Software & Design Tool
 ## https://github.com/heeyonhh/react-project
 
 🔎 주요기능
+
 ✅ KaKao API 간편 회원가입 및 로그인
+
 ✅ Recoil persist 로그인 및 상태 관리
+
 ✅ Redux-toolkit 상품 상태 관리
+
 ✅ 사용자 위치정보(Geolocation API) 얻어 가까운 매장 리스트 업 기능
 
 🔎 문제해결
+
 KaKao API 요청 시 CORS 오류 발생 ✅ Response Headers로 해결
+
 매장 선택하고 상품 여러번 주문시 다시 매장 선택 페이지 뜸 ✅ Recoil로 매장 선택시 상태 저장하여 조건부 렌더링 구현
+
 로그인이 저장되지 않는 현상 ✅ Recoil persist로 로그인 상태 저장
 
 ## 기여도
@@ -130,9 +137,13 @@ Software & Design Tool
 ## now repo
 
 🔎 주요기능
+
 ✅ lenis 라이브러리를 이용한 스코롤 스무스 초기 설정
+
 ✅ Scss mixin 사용으로 코드의 재사용을 높임
+
 ✅ GSAP, Framer-motion, React-scroll 라이브러리를 사용하여 배경화면, 텍스트, 이미지 패럴랙스 효과를 구현
+
 ✅ 부드러운 애니메이션을 구현하고 원하는 스코롤 시점에 이벤트가 작동할 수 있도록 Js, Sass, GSAP를 적절하게 믹스하여 구현 및 디자인
 
 ## 사용 스택
